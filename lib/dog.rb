@@ -1,12 +1,12 @@
 # dog.rb
-class Dog 
+class Dog
 
   def initialize (bark)
     @bark = bark
-  end 
+  end
 
   def bark
-    @bark 
+    @bark
     puts "woof!"
   end
 
@@ -14,9 +14,8 @@ class Dog
     @sit = sit
   end
 
-  def sit 
+  def sit
     @sit
     puts "The dog is sitting."
-  end 
+  end
 end
-    
